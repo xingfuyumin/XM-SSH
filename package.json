@@ -1,0 +1,28 @@
+{
+  "name": "xm-ssh",
+  "version": "1.0.0",
+  "description": "通过ssh协议操作远程文件",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tsc && node test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingfuyumin/XM-SSH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingfuyumin/XM-SSH/issues"
+  },
+  "homepage": "https://github.com/xingfuyumin/XM-SSH#readme",
+  "dependencies": {
+    "ssh2": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/ssh2": "^0.5.48"
+  }
+}
